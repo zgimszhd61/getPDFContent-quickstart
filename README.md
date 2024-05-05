@@ -20,3 +20,4 @@ prompt-2：
 ----------
 {}
 ```
+<img width="1022" alt="image" src="https://github.com/zgimszhd61/getPDFContent-quickstart/assets/114722053/3abf336e-2f46-46c3-b294-447aa62630a4">
