@@ -21,4 +21,4 @@ prompt-2：
 ----------
 {}
 ```
-<img width="1022" alt="image" src="https://github.com/zgimszhd61/getPDFContent-quickstart/assets/114722053/3abf336e-2f46-46c3-b294-447aa62630a4">
+<img width="1009" alt="image" src="https://github.com/zgimszhd61/getPDFContent-quickstart/assets/114722053/77eed1c1-41c9-491b-ace2-cc932df6e79c">
