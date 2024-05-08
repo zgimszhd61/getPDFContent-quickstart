@@ -13,7 +13,7 @@ def askGPT3(mprompt):
     client = OpenAI()
     try:
         completion = client.chat.completions.create(
-        model="gpt-3.5-turbo",
+        model="gpt-4-turbo",
         messages=[
             {"role": "system", "content": sprompt},
             {"role": "user", "content": mprompt}
@@ -52,8 +52,8 @@ def mainv2(name):
   print(len(completeText.split("\n")))
   for line in completeText.split("\n"):
     if len(line) > 2:
-      # askGPT3(line)
-      print(line)
-      # print()
+      askGPT3(line)
+      # print(line)
+      print()
 
 mainv2("2405.00675v1.pdf")
