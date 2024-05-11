@@ -21,4 +21,14 @@ prompt-2：
 ----------
 {}
 ```
+
+prompt-3:
+```
+重新整理以下文章表达方式，忠于原文意思，不要简化，但使之更易于被中国人理解。
+如果内容太长需要我确认是否继续续写时，你可以问我。
+-----------
+{}
+```
+
 <img width="1009" alt="image" src="https://github.com/zgimszhd61/getPDFContent-quickstart/assets/114722053/77eed1c1-41c9-491b-ace2-cc932df6e79c">
+
