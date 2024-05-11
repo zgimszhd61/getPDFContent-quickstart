@@ -4,7 +4,7 @@ import re
 import os
 from openai import OpenAI
 
-os.environ["OPENAI_API_KEY"] = "sk-"
+os.environ["OPENAI_API_KEY"] = "sk-proj-"
 
 def askGPT3(mprompt):
     sprompt = """
@@ -13,7 +13,7 @@ def askGPT3(mprompt):
     client = OpenAI()
     try:
         completion = client.chat.completions.create(
-        model="gpt-4-turbo",
+        model="gpt-3.5-turbo",
         messages=[
             {"role": "system", "content": sprompt},
             {"role": "user", "content": mprompt}
@@ -23,7 +23,7 @@ def askGPT3(mprompt):
         print(result)
         return(result)
     except:
-        print(mprompt)
+        print("ERROR")
 
 def mainv2(name):
   completeText = ""
@@ -56,4 +56,4 @@ def mainv2(name):
       # print(line)
       print()
 
-mainv2("2405.00675v1.pdf")
+mainv2("2405.04332v1.pdf")
