@@ -6,7 +6,7 @@ from openai import OpenAI
 
 os.environ["OPENAI_API_KEY"] = "sk-proj-"
 
-def askGPT3(mprompt):
+def askGPT3(mprompt,name):
     sprompt = """
     请将下面内容翻译成中文,说人话,使之更符合中国人阅读理解习惯。
     """
@@ -21,9 +21,14 @@ def askGPT3(mprompt):
         )
         result = completion.choices[0].message.content.strip()
         print(result)
+        filename = name+".txt"
+        writecontent(result,filename)
         return(result)
     except:
         print("ERROR")
+def writecontent(content,filename):
+    with open('/Users/a0000/mywork/commonLLM/opensource/nnnew/getPDFContent-quickstart/'+filename, 'a+') as file:
+        file.write(content)
 
 def mainv2(name):
   completeText = ""
@@ -46,14 +51,20 @@ def mainv2(name):
   if "References\n" in completeText:
     completeText = completeText.split("References\n")[0]
 
+  if "REFERENCES" in completeText:
+    completeText = completeText.split("REFERENCES")[0]
+
   ## 使用replace来识别和所有并不是以.结尾的换行(\n)
   completeText = re.sub(r'(?<=[^.])\n', ' ', completeText)
 
   print(len(completeText.split("\n")))
   for line in completeText.split("\n"):
     if len(line) > 2:
-      askGPT3(line)
+      ## 启发式去除数据.
+      if "Publication date:" in line:
+         continue
+      askGPT3(line,name)
       # print(line)
       print()
 
-mainv2("2405.04332v1.pdf")
+mainv2("2401.13802v3.pdf")
