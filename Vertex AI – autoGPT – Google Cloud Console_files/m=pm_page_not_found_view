@@ -1,0 +1,11 @@
+"use strict";this.default_r_pqyxehd=this.default_r_pqyxehd||{};(function(_){var window=this;
+try{
+_.Kh("pm_page_not_found_view");
+var Icj=function(a){a&1&&(_.I(0,"li"),_.M(1,"a",9),_.L())},Jcj=class{constructor(){this.welcomeUrl=_.XKb.create().link().asString();this.cloudBrandName=_.hCa();this.consoleDocBaseUrl=_.Aa(_.uCa());this.isTpc=_.yi()}};Jcj.\u0275fac=function(a){return new (a||Jcj)};
+Jcj.\u0275cmp=_.w({type:Jcj,selectors:[["page-not-found"]],hostAttrs:[1,"cfc-flex-layout-column"],decls:14,vars:5,consts:()=>["\u672a\u627e\u5230\u7f51\u5740","\u65e0\u6cd5\u627e\u5230\u60a8\u67e5\u627e\u7684\u5185\u5bb9\u3002\u8bf7\u5c1d\u8bd5\u4ee5\u4e0b\u4efb\u610f\u94fe\u63a5\u3002","\ufffd0\ufffd\u9996\u9875",["linkText","\ufffd0\ufffd \u6587\u6863"],[1,"cfc-space-first"],["cfc-list",""],["cfcTrackedLink","","track-type","errorAction","track-name","toConsole",3,"cfcRouterLink"],["cfcTrackedLink",
+"","track-type","errorAction","track-name","toMarketing",3,"cfc-external-link",6,"linkText"],[4,"ngIf"],"cfc-external-link;http://developers.google.com;cfcTrackedLink;;track-type;errorAction;track-name;toDeveloperDocs;linkText;Google for Developers".split(";")],template:function(a,b){a&1&&(_.I(0,"cfc-single-panel-layout")(1,"cfc-panel-body")(2,"h2",4),_.P(3,0),_.L(),_.I(4,"p"),_.P(5,1),_.L(),_.I(6,"ul",5)(7,"li")(8,"a",6),_.P(9,2),_.L()(),_.I(10,"li")(11,"a",7),_.Pf(12,3),_.L()(),_.G(13,Icj,2,0,"li",
+8),_.L()()());a&2&&(_.E(8),_.H("cfcRouterLink",b.welcomeUrl),_.E(),_.Qf(b.cloudBrandName),_.Rf(9),_.E(2),_.Qf(b.cloudBrandName),_.Rf(12),_.H("cfc-external-link",b.consoleDocBaseUrl),_.E(2),_.H("ngIf",!b.isTpc))},dependencies:[_.IF,_.xI,_.Lw,_.Dw,_.eE,_.qt,_.hq],encapsulation:2});var Kcj=class{};Kcj.\u0275fac=function(a){return new (a||Kcj)};Kcj.\u0275mod=_.x({type:Kcj});Kcj.\u0275inj=_.t({imports:[_.KF,_.yI,_.Nw,_.Gw,_.fE,_.$w,_.wq]});var Lcj=class{};Lcj.\u0275fac=function(a){return new (a||Lcj)};Lcj.\u0275mod=_.x({type:Lcj,id:"pm_page_not_found_view"});Lcj.\u0275inj=_.t({imports:[_.Et([{path:"",component:Jcj}]),Kcj]});_.gf(Lcj,"pm_page_not_found_view");
+_.Lh();
+}catch(e){_._DumpException(e)}
+}).call(this,this.default_r_pqyxehd);
+// Google Inc.

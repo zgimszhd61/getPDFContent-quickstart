@@ -4,7 +4,8 @@ import re
 import os
 from openai import OpenAI
 
-os.environ["OPENAI_API_KEY"] = "sk-proj-"
+from dotenv import load_dotenv
+load_dotenv()
 
 def askGPT3(mprompt,name):
     sprompt = """
@@ -13,7 +14,7 @@ def askGPT3(mprompt,name):
     client = OpenAI()
     try:
         completion = client.chat.completions.create(
-        model="gpt-3.5-turbo",
+        model="gpt-4o",
         messages=[
             {"role": "system", "content": sprompt},
             {"role": "user", "content": mprompt}
@@ -26,6 +27,7 @@ def askGPT3(mprompt,name):
         return(result)
     except:
         print("ERROR")
+        
 def writecontent(content,filename):
     with open('/Users/a0000/mywork/commonLLM/opensource/nnnew/getPDFContent-quickstart/'+filename, 'a+') as file:
         file.write(content)
@@ -67,4 +69,4 @@ def mainv2(name):
       # print(line)
       print()
 
-mainv2("2401.13802v3.pdf")
+mainv2("alibaba.pdf")

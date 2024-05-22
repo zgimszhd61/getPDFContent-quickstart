@@ -1,0 +1,46 @@
+<svg height="28" viewBox="0 0 28 28" width="28" xmlns="http://www.w3.org/2000/svg">
+	<defs>
+		<linearGradient id="a" x1="13.362%" x2="41.912%" y1="59.46%" y2="41.872%">
+			<stop offset="0%" stop-color="#1A237E" stop-opacity=".2"/>
+			<stop offset="66%" stop-color="#1A237E" stop-opacity="0"/>
+		</linearGradient>
+		<linearGradient id="b" x1="-15.777%" x2="85.395%" y1="10.154%" y2="81.096%">
+			<stop offset="0%" stop-color="#1A237E" stop-opacity=".2"/>
+			<stop offset="100%" stop-color="#1A237E" stop-opacity=".04"/>
+		</linearGradient>
+		<linearGradient id="c" x1="79.563%" x2="52.137%" y1="74.295%" y2="54.199%">
+			<stop offset="0%" stop-color="#BF360C" stop-opacity=".15"/>
+			<stop offset="66%" stop-color="#BF360C" stop-opacity="0"/>
+		</linearGradient>
+		<linearGradient id="d" x1="49.979%" x2="49.979%" y1=".971%" y2="36.725%">
+			<stop offset="0%" stop-color="#A52714" stop-opacity=".2"/>
+			<stop offset="66%" stop-color="#A52714" stop-opacity="0"/>
+		</linearGradient>
+		<linearGradient id="e" x1="-8.17%" x2="62.78%" y1="35.526%" y2="82.922%">
+			<stop offset="0%" stop-color="#3E2723" stop-opacity=".15"/>
+			<stop offset="100%" stop-color="#3E2723" stop-opacity="0"/>
+		</linearGradient>
+		<linearGradient id="f" x1="50.01%" x2="50.01%" y1=".003%" y2="99.496%">
+			<stop offset="0%" stop-color="#3E2723" stop-opacity=".15"/>
+			<stop offset="4.04%" stop-color="#472821" stop-opacity=".144"/>
+			<stop offset="25.59%" stop-color="#722D1A" stop-opacity=".112"/>
+			<stop offset="46.52%" stop-color="#933114" stop-opacity=".08"/>
+			<stop offset="66.36%" stop-color="#AB340F" stop-opacity=".051"/>
+			<stop offset="84.67%" stop-color="#BA350D" stop-opacity=".023"/>
+			<stop offset="100%" stop-color="#BF360C" stop-opacity="0"/>
+		</linearGradient>
+	</defs>
+	<g fill="none" fill-rule="evenodd">
+		<path d="M10.35 6.6h12.674l-2.128-3.712c-.307-.535-.878-.866-1.495-.866H8.2c-.618 0-1.188.33-1.495.866L3.41 8.63l6.94 11.77V6.6z" fill="#4285F4"/>
+		<path d="M10.35 4.6h12.674L20.896.866C20.59.33 20.018 0 19.4 0H8.2C7.58 0 7.01.33 6.704.866L3.41 6.623 10.35 18.4V4.6z" fill="url(#a)" transform="translate(0 2)"/>
+		<path d="M3.41 6.623l3.42 3.816-.614 1.06L3.41 6.623z" fill="url(#b)" transform="translate(0 2)"/>
+		<path d="M3.41 8.63l-2.306 4.024c-.305.53-.305 1.184 0 1.715l5.6 9.764c.308.536.878.866 1.495.866h6.566l6.618-11.5-11.034 6.9L3.41 8.63z" fill="#FFCD40"/>
+		<path d="M10.35 18.4L3.41 6.623l-2.306 4.03c-.305.532-.305 1.185 0 1.715l5.6 9.766c.307.535.878.866 1.495.866h6.566l6.615-11.5-11.03 6.9z" fill="url(#c)" transform="translate(0 2)"/>
+		<path d="M23.024 6.6H17.25l4.134 6.9L14.43 25h4.97c.618 0 1.19-.33 1.496-.866l5.6-9.765c.305-.532.305-1.185 0-1.716L23.024 6.6z" fill="#DB4437"/>
+		<path d="M23.024 4.6H10.35l11.03 6.9L14.43 23H19.4c.618 0 1.188-.33 1.495-.866l5.6-9.765c.306-.532.306-1.185 0-1.716L23.026 4.6z" fill="url(#d)" transform="translate(0 2)"/>
+		<path d="M17.25 4.6l9.475 8.975V23H14.428l2.822-4.6V4.6z" fill="url(#e)" transform="translate(0 2)"/>
+		<path d="M10.35 18.4l4.078 4.6 2.822-4.6h-6.9z" fill="url(#f)" transform="translate(0 2)"/>
+		<path d="M17.25 6.6h-6.9l-4.134 6.9 4.134 6.9h6.9l4.134-6.9-4.134-6.9zm-3.517 10.208c-1.815 0-3.286-1.47-3.286-3.286 0-1.814 1.47-3.285 3.286-3.285 1.814 0 3.285 1.47 3.285 3.285 0 1.815-1.47 3.286-3.285 3.286z" fill="#EEE"/>
+		<path d="M13.732 10.224c1.776 0 3.223 1.403 3.295 3.16h.004c0-1.82-1.476-3.298-3.298-3.298s-3.298 1.477-3.298 3.3h.003c.073-1.76 1.52-3.162 3.295-3.162z" fill="#262626" fill-opacity=".1"/>
+	</g>
+</svg>
