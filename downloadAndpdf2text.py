@@ -17,7 +17,7 @@ def save_string_to_file(string_variable):
 
 ## 下载
 def mainv2():
-    url = "https://arxiv.org/pdf/2406.06559"
+    url = "https://s22.q4cdn.com/959853165/files/doc_events/2024/May/15/netflix-inc-_company-conference-presentation_2024-05-15_english.pdf"
 
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
